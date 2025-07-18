@@ -1,0 +1,64 @@
+body {
+  background: #101226;
+}
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-family: Arial;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+  transition: all 0.3s;
+}
+
+a:hover {
+  font-size: 3rem;
+  background: #adf;
+  color: #232;
+}
+
+/* para link  */
+
+a:focus {
+  background: #cfa;
+  color: #171;
+}
+
+a:active {
+  background: #ffa;
+  color: #761;
+}
+
+a:visited {
+  background: #fda;
+  color: #721;
+}
+
+/*Seletores de elementos*/
+li {
+  color: #ddd;
+  padding: 1rem;
+}
+.lista-1 {
+  background: #232;
+}
+.lista-1 li:first-child {
+  background-color: #caf;
+}
+
+.lista-1 li:last-child {
+  background: #721;
+}
+
+.lista-1 li:nth-child(2) {
+  background: #adf;
+}
+
+.lista-2 li:nth-child(even) {
+  background-color: #caf;
+}
+
+.lista-2 li:nth-child(3n) {
+  background: #721;
+}

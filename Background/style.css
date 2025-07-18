@@ -1,0 +1,47 @@
+body {
+  background: #101228;
+}
+.bicicleta {
+  display: flex;
+  height: 500px;
+  background-image: url("/img/bicicleta.jpg");
+  background-repeat: no-repeat;
+  /* background-size: 100%; */
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center top;
+}
+
+h2 {
+  color: #ca2;
+  margin: auto;
+  background: #ccc;
+  padding: 1rem 2rem;
+}
+
+.pattern {
+  height: 300px;
+  background-color: #ca2;
+  /* margin: 10px; */
+  background-image: url("/img/pattern.svg");
+  background-repeat: repeat;
+  background-size: 5em;
+}
+
+.linear {
+  height: 200px;
+  background-image: linear-gradient(
+    45deg,
+    lightblue 1%,
+    lightcoral 20%,
+    orange,
+    yellow
+  );
+  /* background-image: linear-gradient(
+    to right,
+    lightblue,
+    lightcoral,
+    orange,
+    yellow
+  ); */
+}
