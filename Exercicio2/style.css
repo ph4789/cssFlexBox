@@ -1,8 +1,124 @@
 body {
-  background: #f7f7f7;
+  background: #101225;
   margin: 0px;
+  font-family: Arial;
   display: grid;
   gap: 60px;
   justify-items: center;
   margin-top: 60px;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+.header {
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+  color: #f7f7f7;
+}
+h1 {
+  text-align: center;
+}
+.cabecalho {
+  padding: 15px;
+  text-align: center;
+  background: orange;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.menu a {
+  background: orange;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.content {
+  background: #f7f7f7;
+  padding: 40px;
+  text-align: right;
+  position: relative;
+  display: grid;
+  align-content: center;
+  justify-items: end;
+  gap: 20px;
+}
+.bick {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+}
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #e21;
+  /* display: inline-block; */
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
+.saiba {
+  background: #e21;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subtitulo {
+  font-size: 3em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+.vantagens {
+  background: #f7f7f7;
+  padding: 40px;
+}
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: orange;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
 }

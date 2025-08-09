@@ -1,7 +1,7 @@
 body {
   background: #101225;
   margin: 0px;
-  fonfont-family: Arial;
+  font-family: Arial;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -19,6 +19,7 @@ p {
   font-size: 1.2em;
   line-height: 1.5em;
 }
+
 h1 {
   text-align: center;
 }
@@ -36,6 +37,7 @@ h1 {
   gap: 20px;
 }
 .menu a {
+  display: inline-block;
   background: orange;
   padding: 15px 30px;
   border-radius: 5px;

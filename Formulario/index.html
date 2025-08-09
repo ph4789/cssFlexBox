@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulários...</title>
+</head>
+
+<body>
+  <h1>Usando Formulários...</h1>
+  <form action="./" method="">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="nomes">
+
+    <label for="cpf">CPF</label>
+    <input type="text" name="cpf" id="cpf" placeholder="000.000.000-00">
+
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="******">
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="email@email.com">
+
+    <label for="idade">Idade: </label>
+    <input type="number" name="idade" id="idade" max="10">
+
+    <label for="saida">Saída do Hotel:</label>
+    <input type="date" name="saida" id="saida">
+
+    <div class="checkbox">
+      <input type="checkbox" name="termos" id="termos" value="aceito">
+      <label for="termos">Aceito os termos de condições da empresa.</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" name="anuncio" id="anuncio">
+      <label for="anuncio">Desejo receber anúncios.</label>
+    </div>
+
+    <p>Entrega:</p>
+    <div class="radio">
+      <input type="radio" name="retirada" id="retirada">
+      <label for="retirada">Retirar no local.</label>
+    </div>
+    <div class="radio">
+      <input type="radio" name="retirada" id="retirada">
+      <label for="retirada">Entrega em casa.</label>
+    </div>
+
+    <label for="parcelas"></label>
+    <select name="parcelas" id="parcelas">
+      <option value="1x">1x de 200</option>
+      <option value="2x">2x de 100</option>
+      <option value="4x">4x de 50</option>
+    </select>
+
+    <label for="mensagem">Mensagem</label>
+    <textarea name="mensagem" id="mensagem" rows="5">
+
+    </textarea>
+
+    <button>Enviar</button>
+  </form>
+</body>
+
+</html>
