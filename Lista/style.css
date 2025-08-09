@@ -1,0 +1,33 @@
+body {
+  background-color: #101226;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  /* height: 100vh; Centraliza verticalmente */
+}
+
+nav {
+  width: 100%;
+  background: #101226;
+  display: block;
+  padding: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  background: bisque;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
